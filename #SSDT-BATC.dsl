@@ -1,4 +1,5 @@
-// ThinkPad-LPC
+// ThinkPad-LPC 
+// Chipset LPC EC->Power management->Battery controller ACPI patch
 DefinitionBlock ("", "SSDT", 2, "T460s", "BATC", 0)
 {
     External(\_SB.PCI0.LPC.EC, DeviceObj)

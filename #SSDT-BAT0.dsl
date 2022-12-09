@@ -1,4 +1,6 @@
-// battery 
+// Bettery Object BAT0 ACPI Patch
+// Copyrights (c) 2022 Rhaym, All rights reserved.
+//
 DefinitionBlock ("", "SSDT", 2, "T460s", "BAT0", 0)
 {
     External(_SB.PCI0.LPC.EC, DeviceObj)
